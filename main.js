@@ -1,6 +1,6 @@
 let quote = document.getElementById('quote');
 let author = document.getElementById('author');
-let btn = document.getElementById('btn'); // Add this line to get the button element
+let btn = document.getElementById('btn'); 
 
 btn.addEventListener('click', handleClick);
 
