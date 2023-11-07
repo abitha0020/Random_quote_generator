@@ -1,7 +1,7 @@
 let quote = document.getElementById('quote');
 let author = document.getElementById('author');
 let btn = document.getElementById('btn');
-let quoteContainer = document.querySelector('.quote-container'); // Get the quote container
+let quoteContainer = document.querySelector('.quote-container'); 
 
 btn.addEventListener('click', handleClick);
 
@@ -11,7 +11,7 @@ function handleClick() {
     .then(output => {
       quote.innerHTML = output.quote;
       author.innerHTML = output.author;
-      quoteContainer.style.display = 'block'; // Show the quote container
+      quoteContainer.style.display = 'block'; 
     });
 }
 
